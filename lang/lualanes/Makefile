@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2007-2014 OpenWrt.org
+# Copyright (C) 2007-2024 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=lualanes
-PKG_VERSION:=3.13.0
-PKG_RELEASE:=2
+PKG_VERSION:=3.16.2
+PKG_RELEASE:=3
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/LuaLanes/lanes/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=53a17d7ee11f17ca0543ae5aa640208dcb62d37862a0d0ea450455fae12c8ff1
+PKG_HASH:=3af9e599877b7d41dea03a0180ad48c77ed324564ecb08a6e3b8d63612944194
 PKG_BUILD_DIR:=$(BUILD_DIR)/lanes-$(PKG_VERSION)
 
 PKG_MAINTAINER:=Vladimir Malyutin <first-leon@yandex.ru>
