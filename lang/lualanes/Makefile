@@ -14,7 +14,6 @@ PKG_RELEASE:=1
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/LuaLanes/lanes.git
 PKG_MIRROR_HASH=7ff19cf8c20c9e4453a2f198381c33d72d668ec310545e01f6512ba4ef51a374
-PKG_SOURCE_VERSION:=v$(subst .,_,$(PKG_VERSION))
 
 PKG_MAINTAINER:=Vladimir Malyutin <first-leon@yandex.ru>
 PKG_LICENSE:=BSD-3-Clause
